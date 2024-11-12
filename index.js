@@ -36,6 +36,7 @@ var reqOptions = {
         "Content-Length": Buffer.byteLength(jsonPayload, 'utf8')
     }
 };
+
 // Send request
 var postRequest = https.request(reqOptions, (response) => {
     response.on("data", (d) => {
