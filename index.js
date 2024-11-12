@@ -2,7 +2,7 @@ var https = require("https");
 var path = require("path");
 var fs = require("fs");
 
-
+// Add you registered account api key
 const API_KEY = '<PDFCO_API_KEY>'
 
 const SourceFileUrl = "https://www.princexml.com/howcome/2016/samples/magic6/magic.pdf";

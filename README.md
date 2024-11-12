@@ -21,4 +21,8 @@ This Node.js project converts a PDF document from a URL to an HTML file using th
 ## Usage
 Run the script to start the conversion process:
 ```bash
+git clone https://github.com/SoorajVp/pdf-to-html.git
+```bash
+cd pdf-to-html
+```bash
 node index.js
